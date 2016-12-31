@@ -1,0 +1,20 @@
+#Creative Tab
+itemGroup.convergence=Convergence
+
+#Items
+item.ingotCopper.name=Copper Ingot
+item.corn.name=Corn
+item.cornSeed.name=Corn Seed
+item.copperHelmet.name=Copper Helmet
+item.copperChestplate.name=Copper Chestplate
+item.copperLeggings.name=Copper Leggings
+item.copperBoots.name=Copper Boots
+item.copperSword.name=Copper Sword
+item.copperPickaxe.name=Copper Pickaxe
+item.copperAxe.name=Copper Axe
+item.copperShovel.name=Copper Shovel
+item.copperHoe.name=Copper Hoe
+
+#Blocks
+tile.oreVoid.name=Ore of the Void
+tile.pedestal.name=Pedestal

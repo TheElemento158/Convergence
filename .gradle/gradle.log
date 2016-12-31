@@ -1,0 +1,69 @@
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-f1643ac        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:extractDependencyATs SKIPPED
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:genSrgs SKIPPED
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:splitServerJar SKIPPED
+:mergeJars SKIPPED
+:deobfMcSRG SKIPPED
+:decompileMc SKIPPED
+:fixMcSources SKIPPED
+:applySourcePatches SKIPPED
+:remapMcSources SKIPPED
+:recompileMc
+:extractNatives
+:getAssetIndex
+:getAssets
+Current status: 557/1112   50%
+:makeStart
+:setupDecompWorkspace
+:ideaModule
+Download https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar
+Download https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-javadoc.jar
+Download https://libraries.minecraft.net/com/mojang/netty/1.6/netty-1.6-sources.jar
+Download https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1-sources.jar
+Download https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-sources.jar
+Download https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-javadoc.jar
+Download https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0-sources.jar
+Download https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0-javadoc.jar
+Download https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6-sources.jar
+Download https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6-javadoc.jar
+Download https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final-sources.jar
+Download https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final-javadoc.jar
+Download https://libraries.minecraft.net/com/mojang/authlib/1.5.22/authlib-1.5.22-sources.jar
+Download https://libraries.minecraft.net/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang-sources.jar
+Download https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12-sources.jar
+Download https://repo1.maven.org/maven2/jline/jline/2.13/jline-2.13-sources.jar
+Download https://repo1.maven.org/maven2/jline/jline/2.13/jline-2.13-javadoc.jar
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3-sources.jar
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3-javadoc.jar
+Download https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1-sources.jar
+Download https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1-javadoc.jar
+Download https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209-sources.jar
+Download https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209-javadoc.jar
+Download https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209-sources.jar
+Download https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209-javadoc.jar
+Download https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2-sources.jar
+Download https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11-sources.jar
+Download https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11-javadoc.jar
+:ideaProject
+:ideaWorkspace
+:idea
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 21.845 secs

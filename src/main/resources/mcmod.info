@@ -1,0 +1,16 @@
+[
+{
+  "modid": "convergence",
+  "name": "Convergence",
+  "description": "All things converge into one",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheElemento158"],
+  "credits": "shadowfacts for reference code and tutorials",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

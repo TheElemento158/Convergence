@@ -1,0 +1,989 @@
+[02:32:18] [main/INFO]: Extra: []
+[02:32:18] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/lhele_000/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[02:32:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:32:18] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:32:18] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[02:32:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:32:18] [main/INFO]: Forge Mod Loader version 12.18.3.2185 for Minecraft 1.10.2 loading
+[02:32:18] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_111, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_111\jre
+[02:32:18] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[02:32:18] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[02:32:18] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[02:32:18] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[02:32:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:32:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:32:18] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[02:32:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:32:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:32:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:32:18] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[02:32:20] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[02:32:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:32:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:32:20] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[02:32:20] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:32:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:32:20] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[02:32:22] [Client thread/INFO]: Setting user: Player967
+[02:32:27] [Client thread/WARN]: Skipping bad option: lastServer:
+[02:32:27] [Client thread/INFO]: LWJGL Version: 2.9.4
+[02:32:28] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:221]: ---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 12/31/16 2:32 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_111, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 473480848 bytes (451 MB) / 728760320 bytes (695 MB) up to 3808428032 bytes (3632 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 368.81' Renderer: 'GeForce GTX 970/PCIe/SSE2'
+[02:32:28] [Client thread/INFO]: MinecraftForge v12.18.3.2185 Initialized
+[02:32:28] [Client thread/INFO]: Replaced 231 ore recipes
+[02:32:28] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[02:32:28] [Client thread/INFO]: Searching C:\Users\lhele_000\Projects\Minecraft\1.10\Convergence\run\mods for mods
+[02:32:29] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[02:32:29] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, convergence] at CLIENT
+[02:32:29] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, convergence] at SERVER
+[02:32:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Convergence
+[02:32:30] [Client thread/INFO]: Processing ObjectHolder annotations
+[02:32:30] [Client thread/INFO]: Found 423 ObjectHolder annotations
+[02:32:30] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[02:32:30] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[02:32:30] [Client thread/INFO]: Applying holder lookups
+[02:32:30] [Client thread/INFO]: Holder lookups applied
+[02:32:30] [Client thread/INFO]: Applying holder lookups
+[02:32:30] [Client thread/INFO]: Holder lookups applied
+[02:32:30] [Client thread/INFO]: Applying holder lookups
+[02:32:30] [Client thread/INFO]: Holder lookups applied
+[02:32:30] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[02:32:30] [Client thread/INFO]: [net.theelemento158.convergence.Convergence:preInit:37]: Convergence is loading!
+[02:32:30] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[02:32:30] [Client thread/INFO]: Applying holder lookups
+[02:32:30] [Client thread/INFO]: Holder lookups applied
+[02:32:30] [Client thread/INFO]: Injecting itemstacks
+[02:32:30] [Client thread/INFO]: Itemstack injection complete
+[02:32:30] [Forge Version Check/INFO]: [Forge] Found status: UP_TO_DATE Target: null
+[02:32:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[02:32:34] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[02:32:34] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:32:34] [Thread-8/INFO]: OpenAL initialized.
+[02:32:34] [Sound Library Loader/INFO]: Sound engine started
+[02:32:39] [Client thread/INFO]: Max texture size: 16384
+[02:32:39] [Client thread/INFO]: Created: 16x16 textures-atlas
+[02:32:40] [Client thread/INFO]: Injecting itemstacks
+[02:32:40] [Client thread/INFO]: Itemstack injection complete
+[02:32:40] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[02:32:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Convergence
+[02:32:44] [Client thread/INFO]: SoundSystem shutting down...
+[02:32:44] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[02:32:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[02:32:44] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[02:32:44] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:32:44] [Thread-10/INFO]: OpenAL initialized.
+[02:32:44] [Sound Library Loader/INFO]: Sound engine started
+[02:32:49] [Client thread/INFO]: Max texture size: 16384
+[02:32:49] [Client thread/INFO]: Created: 512x512 textures-atlas
+[02:32:49] [Client thread/WARN]: Skipping bad option: lastServer:
+[02:32:51] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[02:34:38] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[02:34:38] [Server thread/INFO]: Generating keypair
+[02:34:39] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[02:34:39] [Server thread/INFO]: Applying holder lookups
+[02:34:39] [Server thread/INFO]: Holder lookups applied
+[02:34:39] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@31982b44)
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=251, y=2, z=-116}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=185, y=5, z=-202}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=-141, y=1, z=176}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=-114, y=1, z=227}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=194, y=4, z=31}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=161, y=3, z=61}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=155, y=1, z=59}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=131, y=1, z=31}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=638, y=5, z=1096}
+[02:34:39] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=672, y=2, z=1250}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=469, y=4, z=1444}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=497, y=0, z=1443}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=481, y=3, z=1440}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=417, y=0, z=1415}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=449, y=2, z=1446}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=443, y=0, z=1451}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=464, y=0, z=1469}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=753, y=4, z=1716}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=743, y=4, z=1728}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=762, y=2, z=1711}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=720, y=5, z=1737}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=620, y=3, z=1690}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=668, y=1, z=1721}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=406, y=4, z=1562}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=285, y=2, z=1523}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=269, y=2, z=1555}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=337, y=5, z=1473}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=341, y=1, z=1521}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=305, y=2, z=1488}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=366, y=1, z=1588}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=361, y=0, z=1583}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=299, y=4, z=1523}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=309, y=0, z=1516}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=328, y=2, z=1518}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=333, y=3, z=1489}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=486, y=3, z=1460}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=448, y=5, z=1456}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=437, y=0, z=1456}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=501, y=5, z=1458}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=402, y=3, z=1605}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=399, y=0, z=1601}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=213, y=3, z=1606}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=225, y=5, z=1587}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=227, y=2, z=1612}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=3, y=5, z=1711}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=11, y=5, z=1693}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=-65, y=1, z=2146}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=-66, y=5, z=2141}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=127, y=0, z=2095}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=91, y=1, z=2038}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=82, y=3, z=2031}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=73, y=3, z=1984}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=89, y=2, z=1976}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=77, y=1, z=1973}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=134, y=3, z=1989}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=-26, y=2, z=2120}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=-24, y=3, z=2098}
+[02:34:40] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@31982b44)
+[02:34:40] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@31982b44)
+[02:34:40] [Server thread/INFO]: Preparing start region for level 0
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=97, y=2, z=1953}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=103, y=0, z=1945}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=98, y=3, z=1979}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=112, y=2, z=1988}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=108, y=4, z=2022}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=126, y=0, z=2006}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=110, y=0, z=2039}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=126, y=2, z=1817}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=119, y=1, z=1836}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=118, y=2, z=1846}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=116, y=0, z=1869}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=125, y=4, z=1882}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=119, y=4, z=1897}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=114, y=2, z=1911}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=117, y=3, z=1938}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=123, y=3, z=1922}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=119, y=5, z=1973}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=112, y=1, z=1954}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=119, y=3, z=2034}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=113, y=0, z=2031}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=121, y=2, z=2065}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=127, y=1, z=2062}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=118, y=2, z=2105}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=121, y=2, z=2114}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=118, y=3, z=2130}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=112, y=5, z=2154}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=115, y=3, z=2173}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=115, y=1, z=2184}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=137, y=2, z=1814}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=141, y=1, z=1838}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=134, y=5, z=1844}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=131, y=3, z=1870}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=132, y=2, z=1880}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=143, y=1, z=1892}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=140, y=2, z=1914}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=134, y=0, z=1929}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=129, y=2, z=1936}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=139, y=5, z=1975}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=133, y=4, z=1964}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=140, y=1, z=2002}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=136, y=3, z=2016}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=139, y=3, z=2044}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=158, y=1, z=2071}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=143, y=2, z=2064}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=139, y=0, z=2050}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=131, y=3, z=2095}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=141, y=3, z=2111}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=147, y=5, z=2115}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=141, y=1, z=2127}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=128, y=2, z=2142}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=129, y=1, z=2150}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=131, y=1, z=2174}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=130, y=3, z=2189}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=154, y=3, z=1815}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=151, y=1, z=1830}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=152, y=5, z=1846}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=155, y=1, z=1865}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=144, y=2, z=1882}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=154, y=1, z=1904}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=152, y=5, z=1895}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=154, y=1, z=1935}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=154, y=1, z=1939}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=163, y=0, z=1966}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=153, y=2, z=1963}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=151, y=4, z=1993}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=151, y=5, z=1975}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=147, y=2, z=2009}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=146, y=2, z=2030}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=145, y=5, z=2055}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=152, y=5, z=2045}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=146, y=3, z=2106}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=158, y=5, z=2080}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=147, y=5, z=2137}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=158, y=0, z=2153}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=159, y=0, z=2162}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=156, y=3, z=2179}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=168, y=2, z=1821}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=167, y=4, z=1829}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=164, y=4, z=1848}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=175, y=0, z=1865}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=165, y=5, z=1882}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=186, y=0, z=1898}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=165, y=5, z=1898}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=162, y=4, z=1919}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=164, y=2, z=1946}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=169, y=2, z=1934}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=163, y=5, z=1974}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=180, y=4, z=1990}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=175, y=0, z=1991}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=174, y=5, z=2028}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=174, y=1, z=2001}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=167, y=4, z=2041}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=170, y=0, z=2058}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=162, y=4, z=2075}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=168, y=1, z=2093}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=173, y=2, z=2104}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=166, y=4, z=2121}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=174, y=0, z=2137}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=174, y=2, z=2147}
+[02:34:40] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=167, y=5, z=2172}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=169, y=3, z=2181}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=176, y=0, z=1818}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=187, y=3, z=1835}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=186, y=5, z=1854}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=186, y=4, z=1887}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=185, y=0, z=1859}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=205, y=1, z=1910}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=185, y=0, z=1909}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=179, y=4, z=1920}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=183, y=5, z=1943}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=185, y=3, z=1974}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=179, y=3, z=1958}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=183, y=0, z=2007}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=197, y=4, z=2016}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=185, y=3, z=2018}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=182, y=3, z=2035}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=180, y=1, z=2056}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=182, y=3, z=2077}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=189, y=4, z=2088}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=180, y=3, z=2110}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=182, y=3, z=2114}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=185, y=5, z=2143}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=184, y=0, z=2155}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=178, y=2, z=2165}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=176, y=0, z=2191}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=199, y=1, z=1817}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=197, y=1, z=1833}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=198, y=0, z=1862}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=201, y=0, z=1849}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=204, y=4, z=1899}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=205, y=1, z=1877}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=205, y=2, z=1923}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=202, y=4, z=1936}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=201, y=2, z=1974}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=198, y=2, z=1967}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=194, y=0, z=2012}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=201, y=5, z=1984}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=201, y=4, z=2032}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=203, y=0, z=2053}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=193, y=1, z=2065}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=200, y=4, z=2094}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=207, y=1, z=2103}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=204, y=2, z=2121}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=197, y=3, z=2132}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=207, y=0, z=2147}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=198, y=3, z=2161}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=196, y=1, z=2180}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=221, y=4, z=1808}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=214, y=5, z=1837}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=218, y=5, z=1858}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=210, y=1, z=1855}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=221, y=1, z=1878}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=228, y=5, z=1897}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=219, y=5, z=1901}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=223, y=0, z=1916}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=221, y=0, z=1923}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=231, y=4, z=1946}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=213, y=5, z=1944}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=215, y=1, z=1953}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=217, y=5, z=1981}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=218, y=1, z=2004}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=208, y=5, z=1986}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=216, y=1, z=2022}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=213, y=5, z=2036}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=222, y=2, z=2059}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=209, y=0, z=2067}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=213, y=0, z=2084}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=221, y=1, z=2104}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=223, y=2, z=2113}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=221, y=5, z=2141}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=220, y=4, z=2151}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=216, y=3, z=2173}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=218, y=1, z=2177}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=237, y=2, z=1818}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=246, y=1, z=1831}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=226, y=4, z=1833}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=238, y=2, z=1845}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=226, y=2, z=1879}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=235, y=2, z=1867}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=227, y=4, z=1932}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=228, y=1, z=1906}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=238, y=3, z=1966}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=233, y=3, z=1975}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=239, y=1, z=1998}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=227, y=4, z=2004}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=234, y=2, z=2027}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=237, y=3, z=2036}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=234, y=1, z=2053}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=232, y=3, z=2070}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=224, y=5, z=2082}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=224, y=1, z=2097}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=231, y=1, z=2112}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=230, y=4, z=2133}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=237, y=2, z=2151}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=224, y=5, z=2166}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=233, y=5, z=2190}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=250, y=3, z=1811}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=243, y=2, z=1849}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=241, y=4, z=1863}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=254, y=1, z=1885}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=244, y=3, z=1895}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=245, y=5, z=1908}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=250, y=3, z=1928}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=254, y=4, z=1951}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=251, y=0, z=1983}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=240, y=4, z=1953}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=249, y=4, z=1992}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=244, y=4, z=2002}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=255, y=1, z=2029}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=247, y=5, z=2044}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=245, y=0, z=2060}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=247, y=0, z=2069}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=255, y=0, z=2081}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=248, y=0, z=2110}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=245, y=1, z=2127}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=246, y=0, z=2139}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=251, y=5, z=2158}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=244, y=0, z=2174}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=247, y=4, z=2178}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=256, y=2, z=1798}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=263, y=5, z=1834}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=263, y=1, z=1817}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=259, y=1, z=1848}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=258, y=0, z=1857}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=258, y=4, z=1875}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=265, y=5, z=1903}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=266, y=4, z=1914}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=271, y=2, z=1938}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=260, y=5, z=1932}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=258, y=2, z=1960}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=266, y=3, z=1978}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=263, y=3, z=1999}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=264, y=2, z=2003}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=260, y=0, z=2026}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=258, y=2, z=2047}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=260, y=4, z=2062}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=256, y=2, z=2075}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=256, y=3, z=2094}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=256, y=1, z=2099}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=267, y=5, z=2121}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=260, y=2, z=2142}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=258, y=1, z=2144}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=266, y=3, z=2166}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=271, y=5, z=2186}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=276, y=1, z=1816}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=275, y=1, z=1829}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=284, y=2, z=1846}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=279, y=2, z=1863}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=286, y=0, z=1872}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=272, y=5, z=1890}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=276, y=4, z=1914}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=284, y=3, z=1926}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=282, y=5, z=1938}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=276, y=3, z=1958}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=280, y=3, z=1974}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=282, y=2, z=1984}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=274, y=5, z=2004}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=282, y=5, z=2017}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=285, y=1, z=2034}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=281, y=3, z=2048}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=274, y=2, z=2064}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=273, y=2, z=2086}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=273, y=4, z=2104}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=275, y=4, z=2125}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=273, y=1, z=2142}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=283, y=1, z=2158}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=279, y=3, z=2175}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=283, y=3, z=2190}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=298, y=2, z=1817}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=296, y=3, z=1828}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=299, y=3, z=1849}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=289, y=5, z=1869}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=303, y=1, z=1874}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=299, y=1, z=1888}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=297, y=2, z=1919}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=288, y=0, z=1926}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=289, y=4, z=1943}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=299, y=2, z=1953}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=297, y=5, z=1973}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=298, y=2, z=1988}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=293, y=5, z=2008}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=291, y=5, z=2022}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=294, y=3, z=2037}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=302, y=2, z=2049}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=295, y=5, z=2070}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=298, y=3, z=2091}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=295, y=5, z=2100}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=301, y=2, z=2115}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=296, y=4, z=2128}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=298, y=0, z=2153}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=296, y=0, z=2168}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=289, y=0, z=2185}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=310, y=1, z=1821}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=310, y=5, z=1837}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=313, y=4, z=1841}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=306, y=4, z=1868}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=315, y=0, z=1887}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=310, y=1, z=1902}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=318, y=1, z=1916}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=307, y=1, z=1931}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=309, y=5, z=1942}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=306, y=0, z=1964}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=319, y=2, z=1979}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=311, y=4, z=1990}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=304, y=4, z=2012}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=310, y=2, z=2027}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=304, y=5, z=2032}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=314, y=2, z=2048}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=312, y=3, z=2078}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=310, y=4, z=2095}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=317, y=1, z=2103}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=312, y=2, z=2112}
+[02:34:41] [Server thread/INFO]: Preparing spawn area: 55%
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=308, y=3, z=2128}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=306, y=3, z=2154}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=309, y=5, z=2165}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=309, y=2, z=2190}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=330, y=2, z=1820}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=324, y=4, z=1825}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=328, y=0, z=1849}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=322, y=2, z=1865}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=321, y=5, z=1873}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=334, y=3, z=1896}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=320, y=2, z=1909}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=326, y=0, z=1934}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=324, y=5, z=1941}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=320, y=0, z=1963}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=320, y=1, z=1970}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=333, y=1, z=1987}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=333, y=5, z=2007}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=321, y=4, z=2031}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=329, y=0, z=2038}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=322, y=0, z=2048}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=331, y=5, z=2071}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=329, y=2, z=2089}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=325, y=5, z=2097}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=332, y=4, z=2124}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=322, y=1, z=2134}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=328, y=4, z=2148}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=323, y=4, z=2173}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=328, y=1, z=2186}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=351, y=2, z=1818}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=349, y=1, z=1833}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=349, y=5, z=1853}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=336, y=4, z=1865}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=345, y=2, z=1877}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=346, y=2, z=1888}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=346, y=4, z=1911}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=340, y=5, z=1925}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=344, y=5, z=1946}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=343, y=3, z=1952}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=340, y=4, z=1980}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=342, y=4, z=1987}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=348, y=3, z=2003}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=339, y=3, z=2028}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=346, y=1, z=2036}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=337, y=5, z=2059}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=344, y=3, z=2066}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=351, y=1, z=2083}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=346, y=0, z=2108}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=340, y=2, z=2117}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=340, y=3, z=2134}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=347, y=3, z=2151}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=348, y=0, z=2162}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=350, y=5, z=2185}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=363, y=5, z=1812}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=361, y=5, z=1828}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=365, y=4, z=1848}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=363, y=0, z=1864}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=359, y=1, z=1880}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=354, y=3, z=1894}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=364, y=5, z=1915}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=363, y=2, z=1923}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=366, y=4, z=1950}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=360, y=2, z=1959}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=359, y=4, z=1977}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=367, y=3, z=1984}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=364, y=5, z=2000}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=353, y=2, z=2017}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=355, y=1, z=2039}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=366, y=4, z=2048}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=355, y=2, z=2072}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=357, y=3, z=2082}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=359, y=0, z=2105}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=364, y=5, z=2118}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=355, y=2, z=2130}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=355, y=2, z=2159}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=356, y=1, z=2175}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=366, y=1, z=2177}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=371, y=0, z=1808}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=374, y=1, z=1831}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=380, y=5, z=1855}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=373, y=1, z=1860}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=373, y=0, z=1879}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=371, y=1, z=1903}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=380, y=2, z=1914}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=368, y=2, z=1927}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=381, y=1, z=1946}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=376, y=5, z=1960}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=368, y=2, z=1980}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=380, y=0, z=1998}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=381, y=4, z=2010}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=371, y=2, z=2028}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=370, y=4, z=2040}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=375, y=3, z=2053}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=369, y=1, z=2075}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=375, y=5, z=2081}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=374, y=2, z=2097}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=369, y=1, z=2122}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=377, y=0, z=2140}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=373, y=0, z=2147}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=370, y=0, z=2165}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=375, y=2, z=2186}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=386, y=2, z=1809}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=392, y=2, z=1839}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=384, y=4, z=1842}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=390, y=4, z=1868}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=393, y=0, z=1883}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=388, y=1, z=1897}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=390, y=3, z=1913}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=386, y=1, z=1922}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=389, y=3, z=1943}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=397, y=2, z=1955}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=391, y=5, z=1981}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=398, y=0, z=1987}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=387, y=3, z=2013}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=390, y=1, z=2027}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=392, y=0, z=2045}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=399, y=2, z=2058}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=398, y=2, z=2075}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=386, y=0, z=2089}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=395, y=4, z=2099}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=388, y=0, z=2115}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=391, y=0, z=2143}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=395, y=3, z=2154}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=392, y=5, z=2163}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=388, y=4, z=2183}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=412, y=3, z=1822}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=401, y=5, z=1829}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=411, y=3, z=1845}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=408, y=5, z=1861}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=411, y=0, z=1887}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=412, y=2, z=1901}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=401, y=4, z=1915}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=413, y=0, z=1931}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=407, y=1, z=1939}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=410, y=2, z=1965}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=400, y=5, z=1974}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=407, y=3, z=1989}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=403, y=5, z=2014}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=405, y=4, z=2018}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=412, y=3, z=2035}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=402, y=1, z=2052}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=411, y=4, z=2065}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=405, y=1, z=2083}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=404, y=1, z=2099}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=401, y=3, z=2117}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=401, y=5, z=2141}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=406, y=1, z=2155}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=411, y=4, z=2169}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=402, y=2, z=2184}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=428, y=1, z=1809}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=418, y=2, z=1829}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=425, y=2, z=1853}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=416, y=5, z=1865}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=423, y=5, z=1877}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=422, y=3, z=1890}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=423, y=5, z=1910}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=431, y=4, z=1920}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=427, y=3, z=1946}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=416, y=0, z=1967}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=424, y=0, z=1968}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=417, y=4, z=1987}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=419, y=3, z=2005}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=430, y=1, z=2024}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=427, y=0, z=2037}
+[02:34:41] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=428, y=5, z=2049}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=426, y=2, z=2074}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=424, y=5, z=2086}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=427, y=3, z=2105}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=426, y=0, z=2117}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=419, y=2, z=2132}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=419, y=5, z=2159}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=428, y=1, z=2164}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=418, y=1, z=2191}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=445, y=2, z=1810}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=446, y=2, z=1825}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=434, y=1, z=1850}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=438, y=3, z=1861}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=434, y=0, z=1879}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=446, y=0, z=1889}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=441, y=1, z=1909}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=446, y=4, z=1930}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=438, y=1, z=1944}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=443, y=4, z=1961}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=435, y=0, z=1971}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=433, y=1, z=1999}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=441, y=5, z=2006}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=441, y=3, z=2028}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=441, y=0, z=2037}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=440, y=1, z=2054}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=446, y=2, z=2064}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=440, y=4, z=2089}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=434, y=0, z=2110}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=443, y=4, z=2115}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=441, y=1, z=2142}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=446, y=3, z=2155}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=444, y=0, z=2168}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=441, y=0, z=2183}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=455, y=3, z=1820}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=448, y=2, z=1824}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=449, y=4, z=1849}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=457, y=2, z=1871}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=448, y=4, z=1876}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=460, y=2, z=1894}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=448, y=1, z=1911}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=458, y=1, z=1927}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=462, y=5, z=1944}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=462, y=1, z=1963}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=453, y=2, z=1968}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=454, y=0, z=1990}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=448, y=0, z=2011}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=461, y=0, z=2024}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=463, y=2, z=2045}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=457, y=5, z=2057}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=459, y=1, z=2077}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=463, y=3, z=2092}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=459, y=5, z=2101}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=451, y=4, z=2115}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=457, y=4, z=2139}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=448, y=0, z=2144}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=457, y=0, z=2172}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=460, y=4, z=2176}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=478, y=4, z=1812}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=467, y=4, z=1835}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=479, y=3, z=1845}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=477, y=1, z=1864}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=477, y=1, z=1886}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=465, y=4, z=1900}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=478, y=3, z=1910}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=476, y=1, z=1931}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=470, y=3, z=1951}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=479, y=2, z=1966}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=469, y=0, z=1980}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=468, y=3, z=1984}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=479, y=5, z=2004}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=474, y=1, z=2028}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=465, y=2, z=2038}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=466, y=2, z=2059}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=470, y=2, z=2075}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=479, y=2, z=2089}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=471, y=3, z=2110}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=467, y=5, z=2127}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=465, y=1, z=2142}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=470, y=1, z=2149}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=469, y=3, z=2164}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=470, y=2, z=2188}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=493, y=5, z=1815}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=493, y=1, z=1832}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=488, y=5, z=1840}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=489, y=3, z=1862}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=484, y=1, z=1882}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=485, y=4, z=1902}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=489, y=4, z=1915}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=492, y=2, z=1922}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=481, y=3, z=1949}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=488, y=1, z=1953}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=493, y=1, z=1976}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=481, y=1, z=1999}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=481, y=5, z=2015}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=486, y=0, z=2028}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=490, y=4, z=2041}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=493, y=1, z=2051}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=492, y=3, z=2067}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=490, y=4, z=2085}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=484, y=1, z=2106}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=480, y=2, z=2123}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=484, y=5, z=2137}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=486, y=0, z=2153}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=490, y=5, z=2170}
+[02:34:42] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=494, y=3, z=2184}
+[02:34:42] [Server thread/INFO]: Changing view distance to 12, from 10
+[02:34:43] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[02:34:43] [Netty Server IO #1/INFO]: Client protocol version 2
+[02:34:43] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : FML@8.0.99.99,convergence@0.0.1a,Forge@12.18.3.2185,mcp@9.19
+[02:34:43] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[02:34:43] [Server thread/INFO]: [Server thread] Server side modded connection established
+[02:34:43] [Server thread/INFO]: Player967[local:E:24ed6d1d] logged in with entity id 0 at (306.5, 5.0, 1998.5)
+[02:34:43] [Server thread/INFO]: Player967 joined the game
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=121, y=1, z=1807}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=133, y=5, z=1798}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=149, y=2, z=1804}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=162, y=0, z=1803}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=183, y=0, z=1807}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=202, y=3, z=1805}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=222, y=2, z=1797}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=244, y=3, z=1792}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=228, y=5, z=1797}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=287, y=0, z=1803}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=296, y=2, z=1800}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=310, y=4, z=1793}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=334, y=0, z=1805}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=348, y=5, z=1801}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=362, y=3, z=1804}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=370, y=4, z=1795}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=399, y=3, z=1803}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=400, y=3, z=1799}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=417, y=5, z=1804}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=440, y=2, z=1792}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=462, y=1, z=1793}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=472, y=3, z=1795}
+[02:34:43] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=487, y=5, z=1792}
+[02:34:44] [Server thread/INFO]: Saving and pausing game...
+[02:34:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:34:44] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@4f157f0[id=6772ffa7-3606-3001-96a1-ec7bc4fa58f6,name=Player967,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3060) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:131) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_111]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+[02:34:45] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:34:45] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:34:53] [Server thread/INFO]: Saving and pausing game...
+[02:34:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:34:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:34:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:34:59] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=114, y=2, z=1781}
+[02:34:59] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=136, y=1, z=1785}
+[02:34:59] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=151, y=2, z=1780}
+[02:34:59] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=161, y=1, z=1788}
+[02:34:59] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=176, y=2, z=1783}
+[02:34:59] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=203, y=1, z=1791}
+[02:34:59] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=215, y=0, z=1787}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=228, y=4, z=1787}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=255, y=4, z=1781}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=269, y=3, z=1785}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=287, y=5, z=1789}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=294, y=3, z=1788}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=318, y=2, z=1789}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=320, y=5, z=1789}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=339, y=4, z=1787}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=352, y=3, z=1776}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=374, y=0, z=1777}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=384, y=4, z=1786}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=413, y=4, z=1785}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=426, y=3, z=1782}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=436, y=2, z=1780}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=457, y=2, z=1780}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=473, y=1, z=1785}
+[02:35:00] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=484, y=0, z=1789}
+[02:35:00] [Server thread/INFO]: Saving and pausing game...
+[02:35:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:35:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:35:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:35:02] [Server thread/INFO]: Saving and pausing game...
+[02:35:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:35:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:35:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:35:11] [Server thread/INFO]: Saving and pausing game...
+[02:35:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:35:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:35:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:35:18] [Server thread/INFO]: Saving and pausing game...
+[02:35:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:35:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:35:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=102, y=0, z=1811}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=96, y=4, z=1826}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=110, y=2, z=1853}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=97, y=5, z=1869}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=100, y=3, z=1872}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=104, y=3, z=1888}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=108, y=1, z=1924}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=96, y=3, z=1905}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=110, y=0, z=2015}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=102, y=3, z=1992}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=106, y=2, z=2068}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=108, y=1, z=2121}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=104, y=2, z=2132}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=105, y=4, z=2144}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=106, y=0, z=2166}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=98, y=0, z=2052}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=105, y=5, z=2101}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=110, y=5, z=2085}
+[02:35:37] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=101, y=4, z=2178}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=99, y=0, z=2200}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=126, y=5, z=2206}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=136, y=4, z=2201}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=151, y=5, z=2204}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=170, y=3, z=2203}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=185, y=2, z=2201}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=193, y=5, z=2193}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=208, y=4, z=2203}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=227, y=2, z=2194}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=244, y=5, z=2194}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=270, y=0, z=2204}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=286, y=2, z=2197}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=300, y=3, z=2204}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=317, y=2, z=2203}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=334, y=3, z=2202}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=348, y=3, z=2198}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=364, y=1, z=2195}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=376, y=1, z=2195}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=393, y=4, z=2206}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=405, y=3, z=2198}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=430, y=1, z=2195}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=433, y=0, z=2205}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=457, y=1, z=2192}
+[02:35:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=467, y=3, z=2194}
+[02:35:52] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=482, y=3, z=2200}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=122, y=0, z=2213}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=138, y=2, z=2222}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=151, y=1, z=2221}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=169, y=3, z=2223}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=189, y=0, z=2209}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=202, y=4, z=2215}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=223, y=5, z=2213}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=235, y=2, z=2221}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=243, y=0, z=2223}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=267, y=5, z=2222}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=277, y=3, z=2220}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=298, y=1, z=2216}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=313, y=2, z=2223}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=325, y=1, z=2210}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=351, y=4, z=2223}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=366, y=2, z=2217}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=368, y=5, z=2209}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=394, y=2, z=2209}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=401, y=3, z=2208}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=428, y=1, z=2219}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=432, y=1, z=2213}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=449, y=2, z=2216}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=477, y=0, z=2212}
+[02:35:53] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=481, y=5, z=2221}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=505, y=0, z=1845}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=498, y=0, z=1862}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=503, y=1, z=1873}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=505, y=4, z=1902}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=511, y=1, z=1916}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=501, y=1, z=1923}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=502, y=4, z=1937}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=504, y=5, z=1961}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=503, y=0, z=1976}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=509, y=4, z=1991}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=506, y=1, z=2011}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=503, y=1, z=2026}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=507, y=1, z=2042}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=503, y=1, z=2059}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=504, y=0, z=2066}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=497, y=4, z=2090}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=497, y=2, z=2109}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=511, y=1, z=2122}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=506, y=3, z=2131}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=505, y=0, z=2147}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=507, y=2, z=2167}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=508, y=2, z=2187}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=507, y=0, z=2205}
+[02:35:54] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=500, y=2, z=2218}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=510, y=4, z=1834}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=519, y=2, z=1835}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=519, y=3, z=1855}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=515, y=3, z=1860}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=526, y=5, z=1879}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=513, y=2, z=1891}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=524, y=2, z=1915}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=522, y=2, z=1935}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=515, y=4, z=1950}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=525, y=4, z=1959}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=519, y=4, z=1970}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=520, y=5, z=1987}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=515, y=3, z=2007}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=517, y=4, z=2030}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=526, y=0, z=2046}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=515, y=4, z=2048}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=516, y=3, z=2070}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=521, y=3, z=2093}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=515, y=5, z=2101}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=522, y=5, z=2127}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=521, y=2, z=2136}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=517, y=2, z=2155}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=517, y=5, z=2168}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=526, y=0, z=2191}
+[02:35:55] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=524, y=3, z=2198}
+[02:35:56] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=515, y=3, z=1811}
+[02:35:56] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=498, y=4, z=1814}
+[02:36:32] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=522, y=2, z=1801}
+[02:36:32] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=511, y=4, z=1792}
+[02:36:44] [Server thread/INFO]: [net.theelemento158.convergence.world.ModWorldGen:generateOre:34]: Ore of the void has generated atBlockPos{x=521, y=5, z=2213}
+[02:37:10] [Server thread/INFO]: Saving and pausing game...
+[02:37:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:37:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:37:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:37:10] [Server thread/INFO]: Stopping server
+[02:37:10] [Server thread/INFO]: Saving players
+[02:37:10] [Server thread/INFO]: Saving worlds
+[02:37:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:37:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:37:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:37:10] [Server thread/INFO]: Unloading dimension 0
+[02:37:10] [Server thread/INFO]: Unloading dimension -1
+[02:37:10] [Server thread/INFO]: Unloading dimension 1
+[02:37:10] [Server thread/INFO]: Applying holder lookups
+[02:37:10] [Server thread/INFO]: Holder lookups applied
+[02:37:12] [Client thread/INFO]: Stopping!
+[02:37:12] [Client thread/INFO]: SoundSystem shutting down...
+[02:37:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
